@@ -1,0 +1,29 @@
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+.square{
+    margin: 10px;
+    border: black;
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+        
+}
+
+.box-Class{
+    display: none;
+    color: white;   
+
+}
+
+.square:hover .box-Class{
+    display: block;
+    text-align: center;
+
+}
